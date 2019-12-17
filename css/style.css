@@ -1,0 +1,42 @@
+body {
+    background: cornflowerblue;
+}
+header {
+    text-align: center;
+    font-size: 34px;
+    color: #000;
+}
+#gameboard div {
+    border:2px solid #000;
+    height: 120px;
+}
+#gameboard div:hover {
+    border: 5px solid #000;
+    background-color: #880000;
+    animation: pulse 0.9s;
+
+}
+@keyframes pulse {
+    0% {
+      background-color: cornflowerblue;
+    }
+    100% {
+      background-color: #880000;
+    }
+  }
+.letter {
+    font-size: 64px;
+    text-align: center;
+
+}
+.gameover {
+    position: absolute;
+    top: 296px;
+    font-size: 135px;
+    left: 376px;
+    color:#000;
+}
+button {
+    margin-left: 377px;
+    font-size: 69px;
+}
