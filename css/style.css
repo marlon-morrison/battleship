@@ -35,5 +35,7 @@ header {
 }
 #reset {
     font-size: 39px;
-    margin-left: 455px;
+    position: absolute;
+    right: 182px;
+    top: 63px;
 }
